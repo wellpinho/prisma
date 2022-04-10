@@ -1,6 +1,22 @@
 # prisma
 Estudando Prisma.io
 
+## Clone this repo
+```git@github.com:wellpinho/prisma.git```
+
+## after cloned use
+```yarn```
+
+## 1: run project
+```yarn dev```
+
+## 2: Prisma Studio
+*prism studio is a tool that helps to visualize models and database tables*
+```yarn prisma studio```
+
+## 3: access the url
+*http://localhost:5555/
+
 ## Docker install on Ubuntu 21.04
 *Remove old version*
 ```sudo apt-get remove docker docker-engine docker.io containerd runc```
@@ -44,10 +60,6 @@ Estudando Prisma.io
 ```
 *Remove a container id*
 ```docker container rm ID_DO_CONTAINER```
-## Prisma Studio
-*prism studio is a tool that helps to visualize models and database tables*
-```yarn prisma studio```
-
 
 ## Prisma Client
 *Models example*
